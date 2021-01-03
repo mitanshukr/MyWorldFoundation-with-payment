@@ -1,10 +1,10 @@
 # MyWorldFoundation with PaymentIntegration
 
-#### Just a demo video: https://youtu.be/IGj-B4L3yRM
 #### Check out the live website: https://myworld-foundation.000webhostapp.com/ (With Payment Integration)
 #### Live Static website on Netlify.http://paymentintegration.netlify.com/ (PHP not supported - Without Payment Integration)
+#### Just a demo video: https://youtu.be/IGj-B4L3yRM
 
-**Note:** The webpage is not designed for mobile or small screen devices. Please check the above links on your desktop screens only. or If interested, you can add media queries to the website and pull request it. I would be glad to work together.
+```**Note:** The webpage is not designed for mobile or small screen devices. Please check the above links on your desktop screens only. or If interested, you can add media queries to the website and pull request it. I would be glad to work together.```
 
 ### Stacks used:
 
