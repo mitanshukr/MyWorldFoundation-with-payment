@@ -4,8 +4,14 @@ $(document).ready(function () {
   });
 
   var app = document.getElementById("app");
+  const about = document.getElementById('about');
+  const work = document.getElementById('work');
+  const donate = document.getElementById('donate');
+  const testimonials = document.getElementById('testimonial');
+  const contact = document.getElementById('contact');
+  // const footerSection = document.getElementById('footerSection');
 
-  var typewriter = new Typewriter(app, {
+  var typewriter = new Typewriter(typingText, {
     loop: true,
   });
 
@@ -27,26 +33,26 @@ $(document).ready(function () {
   window.addEventListener("scroll", function () {
     let winPos = window.pageYOffset;
     //    console.log(window.pageYOffset + 'px');
-    if (window.pageYOffset < 610) {
+    if (window.pageYOffset < about.offsetTop) {
       //top section
       $("ul a").removeClass("active");
-    } else if (winPos >= 610 && winPos < 1220) {
+    } else if (winPos >= about.offsetTop && winPos < work.offsetTop) {
       //about section
       $("ul a").removeClass("active");
       $('a[href="#about"]').addClass("active");
-    } else if (winPos >= 1220 && winPos < 1830) {
+    } else if (winPos >= work.offsetTop && winPos < donate.offsetTop) {
       //work section
       $("ul a").removeClass("active");
       $('a[href="#work"]').addClass("active");
-    } else if (winPos >= 1830 && winPos < 2440) {
+    } else if (winPos >= donate.offsetTop && winPos < testimonials.offsetTop) {
       //donate section
       $("ul a").removeClass("active");
       $('a[href="#donate"]').addClass("active");
-    } else if (winPos >= 2440 && winPos < 3050) {
+    } else if (winPos >= testimonials.offsetTop && winPos < contact.offsetTop) {
       //testimonials section
       $("ul a").removeClass("active");
       $('a[href="#testimonial"]').addClass("active");
-    } else if (winPos >= 3049) {
+    } else if (winPos >= contact.offsetTop) {
       //contact section
       $("ul a").removeClass("active");
       $('a[href="#contact"]').addClass("active");
