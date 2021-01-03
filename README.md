@@ -1,4 +1,4 @@
-# PaymentIntegration
+# MyWorldFoundation with PaymentIntegration
 
 #### Just a demo video: https://youtu.be/IGj-B4L3yRM
 #### Check out the live website: https://abusive-kit.000webhostapp.com/ (With Payment Integration)
